@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.51" multi-file="no">
+  <meta>
+    <name>51_del3_UML</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="Pd8d82e7b7bbc425e87a2ac24c9697477">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di907358881255560201" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:07:38">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di734482246978481544" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:07:38">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p175892907139911516" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/15/2013 21:04:39</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p175429384659425642" name="UseCaseDiagram1" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/15/2013 21:04:39</creation-date>
+          <change-date>11/15/2013 21:15:42</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di310285814224861185" cid="AC001" type="actor" name="Player" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:04:42">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di710808005970746745" cid="UC001" type="use-case" name="Play Game" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:04:53">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di369053801844745963" cid="UC002" type="use-case" name="Land on Field" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:05:29">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di132177987912309087" cid="UC003" type="use-case" name="Land on Owned Field" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:05:56">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di427821789564630742" cid="UC004" type="use-case" name="Tax " style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:06:15">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di748245096327918310" cid="EX005" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:13:50">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di373913368523296229" cid="EX006" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:14:06">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di490509974946374042" cid="REL001" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:09:50">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di310285814224861185" to="di710808005970746745">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di577466477212441510" cid="INC004" type="include" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:09:55">
+            <stereotypes>
+              <stereotype name="include" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di532946720584400926" cid="UC006" type="use-case" name="Refuge" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:14:28">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di343196585290314818" cid="EX007" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:14:43">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di420794253410972285" cid="UC007" type="use-case" name="Land on Labor Camp" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:14:54">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di672396160242948042" cid="EX008" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:15:01">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di483089534570115391" cid="UC008" type="use-case" name="Land on Fleet" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:15:11">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di811070591768940930" cid="EX009" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:15:20">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di117229624468396395" cid="UC009" type="use-case" name="Territory" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:15:31">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di734579432992138458" cid="EX010" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pd8d82e7b7bbc425e87a2ac24c9697477" creation-date="11/15/2013 21:15:42">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di310285814224861185" iid="0695815eb77a44a5aabc378dbeec67e5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:04:42" order-index="0" type="entity">
+            <layout ax="140" ay="200" awidth="60" aheight="120" x="140" y="200" width="60" height="120" angle="0" />
+          </item>
+          <item id="di710808005970746745" iid="97d05de2b4ff42388ae4e66fbd228b9a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:04:53" order-index="1" type="entity">
+            <layout ax="280" ay="220" awidth="120" aheight="75" x="280" y="220" width="120" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di369053801844745963" iid="54fe64c7f5db4aabaf33d144a6566cbe" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:05:29" order-index="2" type="entity">
+            <layout ax="460" ay="220" awidth="120" aheight="75" x="460" y="220" width="120" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di132177987912309087" iid="fe667372aa534150b4dcb9e7cc1d7716" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:05:56" order-index="3" type="entity">
+            <layout ax="460" ay="80" awidth="120" aheight="75" x="460" y="80" width="120" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di427821789564630742" iid="304d0e26a7634d5bb14d0e3fdd18b5c5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:06:15" order-index="4" type="entity">
+            <layout ax="460" ay="360" awidth="120" aheight="75" x="460" y="360" width="120" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di490509974946374042" iid="0d435121fb7b497fa781172025272e04" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:09:50" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="200" y1="260" x2="280" y2="258" start-border-pos="0.374264717102051" end-border-pos="0.870980428059896">
+              <points>
+                <point x="200" y="260" />
+                <point x="280" y="258" />
+              </points>
+            </layout>
+            <relation from="di310285814224861185" from-iid="0695815eb77a44a5aabc378dbeec67e5" to="di710808005970746745" to-iid="97d05de2b4ff42388ae4e66fbd228b9a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di577466477212441510" iid="6a9a2af7aec041aea6e6f6647ff084cc" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:09:55" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="400" y1="258" x2="460" y2="258" start-border-pos="0.376666666666667" end-border-pos="0.873333333333333">
+              <points>
+                <point x="400" y="258" />
+                <point x="460" y="258" />
+              </points>
+            </layout>
+            <relation from="di710808005970746745" from-iid="97d05de2b4ff42388ae4e66fbd228b9a" to="di369053801844745963" to-iid="54fe64c7f5db4aabaf33d144a6566cbe" />
+          </item>
+          <item id="di748245096327918310" iid="6dc24dab60b54579ad285d104488a0f7" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:13:50" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="520" y1="155" x2="520" y2="220" start-border-pos="0.625" end-border-pos="0.125">
+              <points>
+                <point x="520" y="155" />
+                <point x="520" y="220" />
+              </points>
+            </layout>
+            <relation from="di132177987912309087" from-iid="fe667372aa534150b4dcb9e7cc1d7716" to="di369053801844745963" to-iid="54fe64c7f5db4aabaf33d144a6566cbe" />
+          </item>
+          <item id="di373913368523296229" iid="546d79ba92a04d7aadac99b7d4eac35a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:14:06" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="520" y1="360" x2="520" y2="295" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="520" y="360" />
+                <point x="520" y="295" />
+              </points>
+            </layout>
+            <relation from="di427821789564630742" from-iid="304d0e26a7634d5bb14d0e3fdd18b5c5" to="di369053801844745963" to-iid="54fe64c7f5db4aabaf33d144a6566cbe" />
+          </item>
+          <item id="di532946720584400926" iid="6c153ac1d3f24a5e9ed2bac9d89af775" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:14:28" order-index="11" type="entity">
+            <layout ax="670" ay="360" awidth="120" aheight="75" x="670" y="360" width="120" height="80" angle="0" />
+            <use-case />
+          </item>
+          <item id="di343196585290314818" iid="ba99dd0057084f25b23625d5f65c4914" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:14:43" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="680" y1="377" x2="570" y2="278" start-border-pos="0.00625" end-border-pos="0.509375">
+              <points>
+                <point x="680" y="377" />
+                <point x="570" y="278" />
+              </points>
+            </layout>
+            <relation from="di532946720584400926" from-iid="6c153ac1d3f24a5e9ed2bac9d89af775" to="di369053801844745963" to-iid="54fe64c7f5db4aabaf33d144a6566cbe" />
+          </item>
+          <item id="di420794253410972285" iid="44dd9c09bc6c4879a98f624b340e5440" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:14:54" order-index="13" type="entity">
+            <layout ax="670" ay="0" awidth="120" aheight="75" x="670" y="0" width="120" height="80" angle="0" />
+            <use-case />
+          </item>
+          <item id="di672396160242948042" iid="bc817816344f41e581a7a3befed9e90f" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:15:01" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="674" y1="51" x2="576" y2="104" start-border-pos="0.797142855326335" end-border-pos="0.300476201375325">
+              <points>
+                <point x="674" y="51" />
+                <point x="576" y="104" />
+              </points>
+            </layout>
+            <relation from="di420794253410972285" from-iid="44dd9c09bc6c4879a98f624b340e5440" to="di132177987912309087" to-iid="fe667372aa534150b4dcb9e7cc1d7716" />
+          </item>
+          <item id="di483089534570115391" iid="8de8d206cdd648ff8f134ac06053f796" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:15:11" order-index="15" type="entity">
+            <layout ax="670" ay="80" awidth="120" aheight="75" x="670" y="80" width="120" height="80" angle="0" />
+            <use-case />
+          </item>
+          <item id="di811070591768940930" iid="6426c440503a4046b2589c7cc568e4a6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:15:20" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="670" y1="118" x2="580" y2="118" start-border-pos="0.873333333333333" end-border-pos="0.376666666666667">
+              <points>
+                <point x="670" y="118" />
+                <point x="580" y="118" />
+              </points>
+            </layout>
+            <relation from="di483089534570115391" from-iid="8de8d206cdd648ff8f134ac06053f796" to="di132177987912309087" to-iid="fe667372aa534150b4dcb9e7cc1d7716" />
+          </item>
+          <item id="di117229624468396395" iid="28eb6714440e4ee7ae9a4195ba1f5406" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:15:31" order-index="17" type="entity">
+            <layout ax="670" ay="160" awidth="120" aheight="75" x="670" y="160" width="120" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di734579432992138458" iid="4f559b96dc384caf87864908d44c2825" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/15/2013 21:15:42" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="674" y1="184" x2="576" y2="131" start-border-pos="0.94952382405599" end-border-pos="0.452857157389323">
+              <points>
+                <point x="674" y="184" />
+                <point x="576" y="131" />
+              </points>
+            </layout>
+            <relation from="di117229624468396395" from-iid="28eb6714440e4ee7ae9a4195ba1f5406" to="di132177987912309087" to-iid="fe667372aa534150b4dcb9e7cc1d7716" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.51" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="Pddfec22c3c38468da7b0610e18d6291c">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="Class:di976163314266622577" tid="" name="Player" description="" nullable="false" class-ref="di976163314266622577" />
+      <type id="int" tid="" name="int" description="" nullable="false" />
+      <type id="Random" tid="" name="Random" description="" nullable="false" />
+      <type id="int[]" tid="" name="int[]" description="" nullable="false" />
+      <type id="Account" tid="" name="Account" description="" nullable="false" />
+      <type id="ArrayList&lt;Fleet&gt;" tid="" name="ArrayList&lt;Fleet&gt;" description="" nullable="false" />
+      <type id="Field[]" tid="" name="Field[]" description="" nullable="false" />
+      <type id="Class:di739975802706113871" tid="" name="DiceCup" description="" nullable="false" class-ref="di739975802706113871" />
+      <type id="Class:di751195379197163759" tid="" name="Board" description="" nullable="false" class-ref="di751195379197163759" />
+      <type id="Player[]" tid="" name="Player[]" description="" nullable="false" />
+      <type id="ArrayList&lt;Ownable&gt;" tid="" name="ArrayList&lt;Ownable&gt;" description="" nullable="false" />
+      <type id="String[]" tid="" name="String[]" description="" nullable="false" />
+      <type id="Object[]" tid="" name="Object[]" description="" nullable="false" />
+      <type id="Class:di145504553312787047" tid="" name="Translator" description="" nullable="false" class-ref="di145504553312787047" />
+      <type id="String..." tid="" name="String..." description="" nullable="false" />
+      <type id="boolean" tid="" name="boolean" description="" nullable="false" />
+      <type id="Class:di481625506557595597" tid="" name="Ownable" description="" nullable="false" class-ref="di481625506557595597" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="di976163314266622577" cid="C004" type="class" name="Player" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:54:21">
+      <stereotypes />
+      <tagged-values />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph line-spacing="1">
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="af588558eac284f9d87799126fc430a3f287" name="playerName" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" />
+        <attribute id="a459446e958bb47f39bca5f17ab3c0c19145" name="currentField" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+        <attribute id="a07a1f64cdbe6465486aaede12e7df638850" name="active" type="Boolean" type-id="Uml.Boolean" visibility="private" abstract="false" virtual="false" default-value="True" />
+        <attribute id="a7124a496925f43b48ada0c830dbb67dd282" name="ownedFields" type="ArrayList&lt;Ownable&gt;" type-id="ArrayList&lt;Ownable&gt;" visibility="private" abstract="false" virtual="false" />
+      </attributes>
+      <operations>
+        <operation id="ob5ebfa2b94444e5090c5a66c955765bb400" name="Player" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="playerName " type="String" type-id="Uml.String" default-value="" />
+            <parameter id="" name=" balance " type="int" type-id="int" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="of0a56e91b4a7489ea33572c177f2871e281" name="getAccount" type="Account" type-id="Account" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="oebbaa842f31f45a98dcd93561ce81dd1208" name="goBroke" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="o5a7e86ecf19f4ba8b9c1d72fd0cc10f9274" name="getTotalAssets" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="oc5b78ecfe6f04ebf885926de004c9474123" name="getNumberOfFleets" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di481625506557595597" cid="C008" type="class" name="Ownable" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:56:34">
+      <stereotypes />
+      <tagged-values />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph line-spacing="1">
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="a64afe8176042406a80707514848bcacb478" name="price" type="Integer" type-id="Uml.Integer" visibility="protected" abstract="false" virtual="false" />
+        <attribute id="a6a470fdee7984507a82989fa05bdc5c5212" name="owner" type="Player" type-id="Class:di976163314266622577" visibility="protected" abstract="false" virtual="false" />
+      </attributes>
+      <operations>
+        <operation id="o822416509019440a9b19fec39a54a53b67" name="Ownable" type="" type-id="" visibility="protected" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+            <parameter id="" name="price" type="int" type-id="int" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="o7e8f4b0bda84428991f6fcca2ac1b807869" name="getRent" type="Integer" type-id="Uml.Integer" visibility="protected" abstract="true" virtual="false" static="false">
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="o494e29baa67f4b1397021aa81954a9d5509" name="landOnField" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p " type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="od82a0343bf22437289f03ac50328569f828" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="o3a5cc92b5e3b46d883b11248e2a9ac83908" name="offerFieldToPlayer" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="o34679cc9b65d467eb9a64242662555a584" name="payRent" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di874313578673852979" cid="C009" type="class" name="Refuge" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:57:03">
+      <stereotypes />
+      <tagged-values />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph line-spacing="1">
+              <p s="S1">
+                <t />
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="a6b62bc32734a4ac38c8279155e50cc32658" name="bonus" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+      </attributes>
+      <operations>
+        <operation id="od4ed5a71542a4c67a6eaad86ca1a5ad8995" name="Refuge" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+            <parameter id="" name="bonus" type="int" type-id="int" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="oc0c5289888c541e2a18aceeb7d002d6f484" name="landOnField" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+        <operation id="ob8cf6bae8ee04ce0b9778b23371fa4d079" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+          </parameters>
+          <source-codes>
+            <source-code language="ActionScript" />
+          </source-codes>
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+  </items>
+  <models>
+    <model id="p603054629834365478" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/12/2013 17:53:20</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p770669181635167695" name="ClassDiagram1" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/12/2013 17:53:20</creation-date>
+          <change-date>11/29/2013 11:22:11</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di590724018380903298" cid="C001" type="class" name="Controller" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:53:22">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ab83b7da4625e49f4ac12f1927bc6d6e2655" name="startBalance" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="aa7dede07168b4ef2acf162e0f80225d8974" name="playersLeft" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a105557bd6c1c4d508d6076539082429b956" name="gameBoard" type="Board" type-id="Class:di751195379197163759" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a96495a08b6884283a14df4068fcdd3c4989" name="players" type="Player[]" type-id="Player[]" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o3073d31881994d0bbf7aa139bcffb48b681" name="GameController" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="startBalance" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob9ea1e95a9934f1db17a07da01f3d56750" name="GameController" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of20a3d215da24eada8aa8dab3720e12c450" name="runGame" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc7ee578a96bf41f795493c1a1b9917d9406" name="playerSetup" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obe327065e91b4b3fac26872964aa5735359" name="playerTurn" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1e0111db56394adfb4625a2a917d68e7746" name="movePlayer" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="player" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                  <parameter id="" name="sum" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di739975802706113871" cid="C002" type="class" name="DiceCup" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:53:43">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ac5442558b5ca4714b9f0962d4191a17c982" name="sum" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="af0b1e29d9b954fe1aa771616bceef42f378" name="twoOfaKind" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o1188be63baeb4b6fa44e02a56dea4bc6478" name="DieCup" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8766e1384bec46d389a288e12e01f422645" name="rollDice" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obc7c395c029f4bb6987a09115d39e9d1732" name="getSum" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o877a504100a148bf95afba53b7b1e8a8674" name="getDiceFaceValue" type="int[]" type-id="int[]" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di263828692495163419" cid="C003" type="class" name="Die" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:53:56">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a63d3ff6b15634c8092abf11440ded96a635" name="faceValue" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a5f6ee0b1cb084297a8e623829bab46c0624" name="NUM_SIDES" type="int" type-id="int" visibility="private" abstract="false" virtual="false" constraint="final" />
+              <attribute id="a325320011e9041dfaa609c456dbbdb07553" name="rand" type="Random" type-id="Random" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a5a32ce7057bc4f298e3b1991afe958d9801" name="DEFAULT_NUM_SIDES" type="int" type-id="int" visibility="private" abstract="false" virtual="false" constraint="final" />
+            </attributes>
+            <operations>
+              <operation id="oaac84acc23ab412eaa8f617ef0134fd2645" name="Die" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="numSides" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3ad2977bcb1d4751add0cfca9a48a4f7916" name="Die" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o74d9dc23758942248f8a7c0a6071c286329" name="roll" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o16e4355c3fb04d39881af3b6e83c33fa249" name="getFaceValue" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2e597036bde7472bb908e186515557df808" name="setFaceValue" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="faceValue" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di458431089206216763" cid="C001" type="class" name="Account" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2013 11:31:32">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="aa29c002574c4498fa5e18f29a0440c41403" name="balance" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o84f943224e834140a3be732efeb8df67502" name="getBalance" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o81232bec58c844bbbd0458a706fdfffd554" name="setBalance" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="balance" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o266baa4d01ab45028b482fb94575108a92" name="deposit" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="amount" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o06afa20f93ee4edc97c145170e12ab70277" name="withdraw" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="amount" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6d146f39e45247c4806d16baeb583ce5483" name="toString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di751195379197163759" cid="C005" type="class" name="Board" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:54:34">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o912da66fc8b44bd183f198f304df8dab727" name="Board" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="dc" type="DiceCup" type-id="Class:di739975802706113871" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od42f81ad828347fc831f1578d828f48e133" name="getFields" type="Field[]" type-id="Field[]" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di444658974746535687" cid="C007" type="class" name="Field" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:55:12">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a6c2147bf57574629922cce398c1ec27c694" name="title" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" constraint="final" />
+            </attributes>
+            <operations>
+              <operation id="oca1827a607c7473b9eb0742c6472f791639" name="landOnField" type="void" type-id="void" visibility="public" abstract="true" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="player" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe0aa2088b5514b80aa692d080d5a14a6452" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di477919667856652995" cid="C001" type="class" name="Shuffler" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/28/2013 23:23:22">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="odd970b36c2454b18b57935fbfe1e9bbf876" name="shuffle" type="Object[]" type-id="Object[]" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="opbjectArray" type="Object[]" type-id="Object[]" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di428021535102703656" cid="C009" type="class" name="Territory" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:57:03">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ab14a1f239d4a4620a49cc1e6f02e3e99571" name="rent" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o6f8ebd48246a4fb1b01197160edbcab4575" name="Territory" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="price" type="int" type-id="int" default-value="" />
+                  <parameter id="" name="rent" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe6e92537c2e549f79d72658080a4574a807" name="getRent" type="int" type-id="int" visibility="protected" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0426d8e9f14e4751902ee0c32fc7c62e414" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di242884425560961536" cid="C009" type="class" name="LaborCamp" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:57:03">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a0c444c2fe958491fa8d7a12d23ee621a55" name="baseRent" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a7b8762b2a55b4e178792963667865ecb380" name="diceCup" type="DiceCup" type-id="Class:di739975802706113871" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="oe51eae3460824d66b85efdeb1b767294179" name="LaborCamp" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="price" type="int" type-id="int" default-value="" />
+                  <parameter id="" name="baseRent" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od3978da1b1654f05abac94406f570954520" name="getRent" type="int" type-id="int" visibility="protected" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4c78fc0892cf4e7fb4a7fb9e743f824e101" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di551281571357229495" cid="C009" type="class" name="Fleet" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:57:03">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="afe65eb9f466f4eec9dc326947b8d44fe472" name="baseRent" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o8044558b1e874f62b145116ddc716a47805" name="Fleet" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="price" type="int" type-id="int" default-value="" />
+                  <parameter id="" name="baseRent" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa82eaefb3cdf495e953f8235f1d3bc2f552" name="getRent" type="int" type-id="int" visibility="protected" abstract="false" virtual="false" static="false">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2d111f42e7b646a6b538aa4206dd89cd781" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di724530842761363764" cid="REL011" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:14:20">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di751195379197163759" to="di444658974746535687">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+              <end-role id="" name="" multiplicity="21" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di740028154280298700" cid="C009" type="class" name="Tax" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 17:57:03">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a3ca7168170084050a89bde91ae461712973" name="taxRate" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+              <attribute id="af194e83880a44044bb325ea392ed4236781" name="taxAmount" type="int" type-id="int" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="odc3ef1425763421fba0dac4a723ee0c7444" name="Tax" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="taxAmount" type="int" type-id="int" default-value="" />
+                  <parameter id="" name="taxRate" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob86c64f2975641dead0e74a72162354a148" name="Tax" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="title" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="taxAmounth" type="int" type-id="int" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8c0078f0c7fa43549616119f52102bd5998" name="landOnField" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6e558602578d4824b02318ab4e85f721187" name="decoratorMessage" type="String[]" type-id="String[]" visibility="protected" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="p" type="Player" type-id="Class:di976163314266622577" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di347508970666736134" cid="GNR001" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:01:23">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di844234492414146473" cid="GNR002" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:01:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di932057237891951521" cid="GNR003" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:02:01">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di219167098189286218" cid="GNR004" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:02:05">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di499620521190046200" cid="GNR005" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:02:07">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di124513784352869892" cid="GNR006" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:02:10">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di876955895208230996" cid="REL008" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:04:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di590724018380903298" to="di976163314266622577">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" multiplicity="2..6" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di484511587275154159" cid="REL014" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:21:33">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di590724018380903298" to="di739975802706113871">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="1" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di909451239844783536" cid="REL007" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:02:17">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di739975802706113871" to="di263828692495163419">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" multiplicity="2" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di665789904866337182" cid="REL013" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:21:14">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di590724018380903298" to="di751195379197163759">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="1" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di898032652221059863" cid="C010" type="class" name="GUI" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pddfec22c3c38468da7b0610e18d6291c" creation-date="11/12/2013 18:03:49">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di693423639586712851" cid="C011" type="class" name="Decorator" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/12/2013 18:04:06">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ad37628c077a842cc9d19f0a252af55ea92" name="t" type="Translator" type-id="Class:di145504553312787047" visibility="private" abstract="false" virtual="false" default-value="null" />
+              <attribute id="a604be77ab09442648a6fac07e6a7ccde711" name="f" type="Field[]" type-id="Field[]" visibility="private" abstract="false" virtual="false" default-value="null" />
+            </attributes>
+            <operations>
+              <operation id="obb91fdc04d9249dea136ec0293e15fa4459" name="setupGUI" type="" type-id="" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="fields" type="Field[]" type-id="Field[]" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oaa879e9cf1424df9925be26ba4030514734" name="showMessage" type="" type-id="" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="message " type="String..." type-id="String..." default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe63178279b504418a219d6fffde3a51c472" name="getUserString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="message " type="String..." type-id="String..." default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ocff2378aaa8946fe9dfdcd7b8912b37078" name="getUserSelection" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="message" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="options" type="String..." type-id="String..." default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9486ec2132284ad6b96a04dd170f3b47673" name="getUserLeftButtonPressed" type="boolean" type-id="boolean" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="leftButton" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="rightButton" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="message" type="String..." type-id="String..." default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o539aa1173ee64c448eefd5b2ac29473b366" name="setOwnerOfField" type="" type-id="" visibility="public" abstract="false" virtual="false" static="true">
+                <parameters>
+                  <parameter id="" name="o" type="Ownable" type-id="Class:di481625506557595597" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di951852600828875024" cid="DEP002" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/22/2013 10:37:42">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di372248858767304395" cid="DEP001" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/22/2013 10:37:37">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di130870280316944655" cid="REL015" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/29/2013 11:22:11">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di976163314266622577" to="di458431089206216763">
+              <start-role id="" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="1" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di145504553312787047" cid="C001" type="class" name="Translator" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/21/2013 23:11:53">
+            <stereotypes>
+              <stereotype name="static" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o013dfbee0eb6473b9613d4cb1837d588739" name="getProperty" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="key" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di204015473358875752" cid="REL002" type="relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/22/2013 11:04:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di976163314266622577" to="di481625506557595597">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di788845080439719677" cid="DEP001" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/28/2013 23:23:46">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di590724018380903298" iid="2f4d5993dc364607a27896589816ad3e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:53:22" order-index="0" type="entity">
+            <layout ax="330" ay="-213" awidth="256" aheight="216" x="330" y="-213" width="256" height="216" angle="0" />
+            <class />
+          </item>
+          <item id="di739975802706113871" iid="d2ecbc035d2e4a96a4d00251a995dc05" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:53:43" order-index="1" type="entity">
+            <layout ax="661" ay="-186" awidth="236" aheight="139" x="661" y="-186" width="236" height="139" angle="0" />
+            <class />
+          </item>
+          <item id="di263828692495163419" iid="cbcf7ca23ac54638833a8cf3023bdcce" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:53:56" order-index="2" type="entity">
+            <layout ax="661" ay="29" awidth="236" aheight="166" x="661" y="29" width="236" height="166" angle="0" />
+            <class />
+          </item>
+          <item id="di751195379197163759" iid="100630358e144e5d95763cf9944d7389" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:54:34" order-index="4" type="entity">
+            <layout ax="362" ay="104" awidth="189" aheight="91" x="362" y="104" width="189" height="91" angle="0" />
+            <class />
+          </item>
+          <item id="di444658974746535687" iid="8325cd89e89448578fd2b9a29e29f140" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:55:12" order-index="5" type="entity">
+            <layout ax="326" ay="285" awidth="260" aheight="117" x="326" y="285" width="260" height="117" angle="0" />
+            <class />
+          </item>
+          <item id="di428021535102703656" iid="59b4cf38bb8a41beb6c3531bb885003c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:57:03" order-index="7" type="entity">
+            <layout ax="-49" ay="756" awidth="277" aheight="123" x="-49" y="756" width="277" height="123" angle="0" />
+            <class />
+          </item>
+          <item id="di242884425560961536" iid="64de2ec4ed3b4786b06c04af47eab09c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:57:03" order-index="7" type="entity">
+            <layout ax="628" ay="756" awidth="331" aheight="151" x="628" y="756" width="331" height="151" angle="0" />
+            <class />
+          </item>
+          <item id="di551281571357229495" iid="f616b12200c9409ea111d32ac96928d0" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:57:03" order-index="7" type="entity">
+            <layout ax="326" ay="756" awidth="277" aheight="133" x="326" y="756" width="277" height="133" angle="0" />
+            <class />
+          </item>
+          <item id="di740028154280298700" iid="ff951534ea22487e990bd00d72a0715e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:57:03" order-index="7" type="entity">
+            <layout ax="-49" ay="505" awidth="315" aheight="156" x="-49" y="505" width="315" height="156" angle="0" />
+            <class />
+          </item>
+          <item id="di347508970666736134" iid="d0389b1d935e4bb4b440256ae07c7518" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:01:23" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="461" y1="479" x2="458" y2="402" start-border-pos="0.121641468915698" end-border-pos="0.623025864821214">
+              <points>
+                <point x="461" y="479" />
+                <point x="458" y="402" />
+              </points>
+            </layout>
+            <relation from="di481625506557595597" from-iid="1e928ba1419d4008b491e1764129c959" to="di444658974746535687" to-iid="8325cd89e89448578fd2b9a29e29f140" />
+          </item>
+          <item id="di844234492414146473" iid="39a8974d59f14763b153df1d8817b07b" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:01:55" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="184" y1="756" x2="327" y2="661" start-border-pos="0.209837545126354" end-border-pos="0.749308534477592">
+              <points>
+                <point x="184" y="756" />
+                <point x="327" y="661" />
+              </points>
+            </layout>
+            <relation from="di428021535102703656" from-iid="59b4cf38bb8a41beb6c3531bb885003c" to="di481625506557595597" to-iid="1e928ba1419d4008b491e1764129c959" />
+          </item>
+          <item id="di932057237891951521" iid="122040e6f7c647b9ad4a8eb5cfd1d3d3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:02:01" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="698" y1="756" x2="579" y2="661" start-border-pos="0.0530776286053153" end-border-pos="0.522005101833963">
+              <points>
+                <point x="698" y="756" />
+                <point x="579" y="661" />
+              </points>
+            </layout>
+            <relation from="di242884425560961536" from-iid="64de2ec4ed3b4786b06c04af47eab09c" to="di481625506557595597" to-iid="1e928ba1419d4008b491e1764129c959" />
+          </item>
+          <item id="di219167098189286218" iid="51d453d67f0342a881a8c8ab82abcbf0" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:02:05" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="464" y1="756" x2="464" y2="661" start-border-pos="0.124548736462094" end-border-pos="0.625451263537906">
+              <points>
+                <point x="464" y="756" />
+                <point x="464" y="661" />
+              </points>
+            </layout>
+            <relation from="di551281571357229495" from-iid="f616b12200c9409ea111d32ac96928d0" to="di481625506557595597" to-iid="1e928ba1419d4008b491e1764129c959" />
+          </item>
+          <item id="di499620521190046200" iid="828ff5f340ce433094e04274690a24a5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:02:07" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="191" y1="398" x2="326" y2="371" start-border-pos="0.324542248835329" end-border-pos="0.816933069473658">
+              <points>
+                <point x="191" y="398" />
+                <point x="326" y="371" />
+              </points>
+            </layout>
+            <relation from="di874313578673852979" from-iid="3c6b58e45b804c7f8f64cb8bb09d1ea1" to="di444658974746535687" to-iid="8325cd89e89448578fd2b9a29e29f140" />
+          </item>
+          <item id="di124513784352869892" iid="a38340d2d3c24b22b152c388aece91bb" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:02:10" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="222" y1="505" x2="372" y2="402" start-border-pos="0.214740656292628" end-border-pos="0.706203724787785">
+              <points>
+                <point x="222" y="505" />
+                <point x="372" y="402" />
+              </points>
+            </layout>
+            <relation from="di740028154280298700" from-iid="ff951534ea22487e990bd00d72a0715e" to="di444658974746535687" to-iid="8325cd89e89448578fd2b9a29e29f140" />
+          </item>
+          <item id="di898032652221059863" iid="d04e8efe644349e1963df6ca7588b12e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:03:49" order-index="19" type="entity">
+            <layout ax="-49" ay="143" awidth="112" aheight="102" x="-49" y="143" width="112" height="102" angle="0" />
+            <class />
+          </item>
+          <item id="di693423639586712851" iid="e71557ff19d14887bfe791c798d1f7ac" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 18:04:06" order-index="20" type="entity">
+            <layout ax="-49" ay="-218" awidth="304" aheight="293" x="-49" y="-218" width="304" height="293" angle="0" />
+            <class />
+          </item>
+          <item id="di976163314266622577" iid="9aaa9538aa95463ea5475b66adaaaf35" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:54:21" order-index="3" type="entity">
+            <layout ax="651" ay="267" awidth="246" aheight="201" x="651" y="267" width="246" height="201" angle="0" />
+            <class />
+          </item>
+          <item id="di458431089206216763" iid="ad0ad445d38a499eb44136447cc1f920" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/16/2013 11:31:32" order-index="23" type="entity">
+            <layout ax="654" ay="554" awidth="243" aheight="157" x="654" y="554" width="243" height="157" angle="0" />
+            <class />
+          </item>
+          <item id="di145504553312787047" iid="d609399a0a9c4af9a5cc6e8f8944c443" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/21/2013 23:11:53" order-index="25" type="entity">
+            <layout ax="-24" ay="-9" awidth="257" aheight="68" x="-24" y="-9" width="257" height="68" angle="0" />
+            <class />
+          </item>
+          <item id="di372248858767304395" iid="801377b8c6a74308a123d9d6484a8828" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 10:37:37" order-index="26" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="330" y1="-93" x2="255" y2="-86" start-border-pos="0.861228483694571" end-border-pos="0.362517425224643">
+              <points>
+                <point x="330" y="-93" />
+                <point x="255" y="-86" />
+              </points>
+            </layout>
+            <relation from="di590724018380903298" from-iid="2f4d5993dc364607a27896589816ad3e" to="di693423639586712851" to-iid="e71557ff19d14887bfe791c798d1f7ac" />
+          </item>
+          <item id="di951852600828875024" iid="47a1814a27b34338917053d42f75167e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 10:37:42" order-index="27" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="50" y1="75" x2="25" y2="143" start-border-pos="0.668628808699156" end-border-pos="0.166084855794907">
+              <points>
+                <point x="50" y="75" />
+                <point x="25" y="143" />
+              </points>
+            </layout>
+            <relation from="di693423639586712851" from-iid="e71557ff19d14887bfe791c798d1f7ac" to="di898032652221059863" to-iid="d04e8efe644349e1963df6ca7588b12e" />
+          </item>
+          <item id="di204015473358875752" iid="0eb190bf86f34c09abf4c6574a98dc66" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 11:04:39" order-index="28" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="651" y1="448" x2="603" y2="479" start-border-pos="0.774691074048702" end-border-pos="0.250584906274146">
+              <points>
+                <point x="651" y="448" />
+                <point x="603" y="479" />
+              </points>
+            </layout>
+            <relation from="di976163314266622577" from-iid="9aaa9538aa95463ea5475b66adaaaf35" to="di481625506557595597" to-iid="1e928ba1419d4008b491e1764129c959" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di481625506557595597" iid="1e928ba1419d4008b491e1764129c959" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:56:34" order-index="6" type="entity">
+            <layout ax="326" ay="479" awidth="277" aheight="182" x="326" y="479" width="277" height="182" angle="0" />
+            <class />
+          </item>
+          <item id="di477919667856652995" iid="61869929da6a41948cbeebdffed89a50" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/28/2013 23:23:22" order-index="29" type="entity">
+            <layout ax="121" ay="143" awidth="134" aheight="142" x="121" y="143" width="134" height="142" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di788845080439719677" iid="c4c63c36e6284518be40b3e12d057b06" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/28/2013 23:23:46" order-index="30" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="362" y1="172" x2="255" y2="198" start-border-pos="0.811956720037775" end-border-pos="0.346830985915493">
+              <points>
+                <point x="362" y="172" />
+                <point x="255" y="198" />
+              </points>
+            </layout>
+            <relation from="di751195379197163759" from-iid="100630358e144e5d95763cf9944d7389" to="di477919667856652995" to-iid="61869929da6a41948cbeebdffed89a50" />
+          </item>
+          <item id="di874313578673852979" iid="3c6b58e45b804c7f8f64cb8bb09d1ea1" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/12/2013 17:57:03" order-index="7" type="entity">
+            <layout ax="-49" ay="362" awidth="240" aheight="122" x="-49" y="362" width="240" height="122" angle="0" />
+            <class />
+          </item>
+          <item id="di909451239844783536" iid="a667a5b8e4a04df197b1b9961317d3dd" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:02:17" order-index="33" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="779" y1="-47" x2="779" y2="29" start-border-pos="0.625" end-border-pos="0.125">
+              <points>
+                <point x="779" y="-47" />
+                <point x="779" y="29" />
+              </points>
+            </layout>
+            <relation from="di739975802706113871" from-iid="d2ecbc035d2e4a96a4d00251a995dc05" to="di263828692495163419" to-iid="cbcf7ca23ac54638833a8cf3023bdcce" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15.00001" />
+          </item>
+          <item id="di876955895208230996" iid="43a3ef8805c84263b8aab1615e041de2" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:04:44" order-index="34" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="530" y1="3" x2="707" y2="267" start-border-pos="0.55453884601593" end-border-pos="0.0564271260083206">
+              <points>
+                <point x="530" y="3" />
+                <point x="707" y="267" />
+              </points>
+            </layout>
+            <relation from="di590724018380903298" from-iid="2f4d5993dc364607a27896589816ad3e" to="di976163314266622577" to-iid="9aaa9538aa95463ea5475b66adaaaf35" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25.00002,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di724530842761363764" iid="f8e44971f65c4931af98959f0c49a1f3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:14:20" order-index="37" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="456" y1="195" x2="456" y2="285" start-border-pos="0.625661375661376" end-border-pos="0.125">
+              <points>
+                <point x="456" y="195" />
+                <point x="456" y="285" />
+              </points>
+            </layout>
+            <relation from="di751195379197163759" from-iid="100630358e144e5d95763cf9944d7389" to="di444658974746535687" to-iid="8325cd89e89448578fd2b9a29e29f140" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,14.99999" />
+          </item>
+          <item id="di665789904866337182" iid="93c52414efbe4e02a531173f72290b06" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:21:14" order-index="38" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="457" y1="3" x2="456" y2="104" start-border-pos="0.625827193260193" end-border-pos="0.124815844984912">
+              <points>
+                <point x="457" y="3" />
+                <point x="456" y="104" />
+              </points>
+            </layout>
+            <relation from="di590724018380903298" from-iid="2f4d5993dc364607a27896589816ad3e" to="di751195379197163759" to-iid="100630358e144e5d95763cf9944d7389" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25.00001,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di484511587275154159" iid="e619190964e24b8e9aaa6a6523d23bd4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:21:33" order-index="39" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="586" y1="-109" x2="661" y2="-112" start-border-pos="0.369923273722331" end-border-pos="0.866828026531412">
+              <points>
+                <point x="586" y="-109" />
+                <point x="661" y="-112" />
+              </points>
+            </layout>
+            <relation from="di590724018380903298" from-iid="2f4d5993dc364607a27896589816ad3e" to="di739975802706113871" to-iid="d2ecbc035d2e4a96a4d00251a995dc05" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25.00004,-14.99999" end-multiplicity="25,15" />
+          </item>
+          <item id="di130870280316944655" iid="8f2ab7ee98cc4c6b94ea5f724fa120a3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/29/2013 11:22:11" order-index="40" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="775" y1="468" x2="775" y2="554" start-border-pos="0.62423011345592" end-border-pos="0.124906500671136">
+              <points>
+                <point x="775" y="468" />
+                <point x="775" y="554" />
+              </points>
+            </layout>
+            <relation from="di976163314266622577" from-iid="9aaa9538aa95463ea5475b66adaaaf35" to="di458431089206216763" to-iid="ad0ad445d38a499eb44136447cc1f920" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="27,15" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
