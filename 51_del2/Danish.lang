@@ -1,0 +1,39 @@
+Tower#Tårn
+TowerDesc#Et stort elfenbenstårn<br> Du får 250
+Crater#Krater
+CraterDesc#Landede ET her?<br>Du mister 60
+Palace Gates#Palads Porten
+Palace GatesDesc#Må jeg komme ind?<br>Du mister 100
+Cold Desert#Kold �rken
+Cold DesertDesc#\"We are the watchers<br>on the wall\"<br>Du mister 20
+Walled City#Byen bag vægen
+Walled CityDesc#Det er ikke verdens ende,<br>men man kan se den herfra.<br>Du får 180
+Mona- stary#Kloster
+Mona- staryDesc#Her sker aldrig noget<br>Du får 0
+Black Cave#M�rk Hule
+Black CaveDesc#Lad være med a ridse<br>batmobilen<br>Du mister 70
+Huts#Hytter
+HutsDesc#Adgang forbudt for eneboere<br>Du mister 60
+Were- wolf#Varulv
+Were- wolfDesc#Hvor er den selvlysende vampyr henne?<br> Du mister 80<br>Du får en extra tur!
+The Pit#Hullet
+The PitDesc#Et hul så dybt, der er<br>kænguroer i bunden<br>Du mister 90
+Gold- mine#Guld- mine
+Gold- mineDesc#Hvem skla bære alt der her?<br>Du får 650
+loseMoneySub#Du mister: 
+getMoneySub#Du får: 
+WelcomeMessage#Velkomment til Aperture Science's "Tempus fugit" test faciliteter.
+Startmessage#Lad os begynde testen.
+tieMessage#Spillet er uafgjort mellem: 
+congratsMessage#Tillykke, 
+youWon#Du har vundet spillet!!
+playAgainMessage#Spil igen?
+Yes#Ja
+No#Nej
+yourTurnMessage#Det er din tur
+lessThanZeroMessage#Du er gået falit!!!
+youNowHaveMessage# Du har nu: 
+points.# point.
+extraTurnMessage# Du får en extra tur
+enterPlayerMessage#Intast Spiller 
+nameMessage#'s Navn

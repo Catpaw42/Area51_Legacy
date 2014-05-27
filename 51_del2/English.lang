@@ -1,0 +1,39 @@
+Tower#Tower
+TowerDesc#A big ivory tower<br> You receive 250
+Crater#Crater
+CraterDesc#Did the aliens<br>land here?<br>You lose 60
+Palace Gates#Palace Gates
+Palace GatesDesc#Can I come in?<br>You lose 100
+Cold Desert#Cold Desert
+Cold DesertDesc#\"We are the watchers<br>on the wall\"<br>You lose 20
+Walled City#Walled City
+Walled CityDesc#Its not the end of the world,<br>but you can see it from here.<br>You Receive 180
+Mona- stary#Mona- stary
+Mona- staryDesc#Nothing ever happens here<br>You Receive 0
+Black Cave#Black Cave
+Black CaveDesc#Please don't park to<br>close to the batmobil<br>You lose 70
+Huts#Huts
+HutsDesc#No hermits Allowed<br>You lose 60
+Were- wolf#Were- wolf
+Were- wolfDesc#It's a man-wolf and it's hungry<br> You lose 80<br>You get an extra turn!
+The Pit#The Pit
+The PitDesc#Throw yourself in next time,<br>and then you will be of no further nuisance!<br> You lose 90
+Gold- mine#Gold- mine
+Gold- mineDesc#Who's going to<br>carry all this?<br> You Receive 650
+loseMoneySub#You Lose: 
+getMoneySub#You get: 
+WelcomeMessage#Welcome to the Aperture Science "Tempus Fugit" testing facilities.
+Startmessage#Let the games... Begin
+tieMessage#The game is tied between: 
+congratsMessage#Congratulations, 
+youWon#you won the game!!
+playAgainMessage#Play again?
+Yes#Yes
+No#No
+yourTurnMessage#It is your turn
+lessThanZeroMessage#You are broke!!!
+youNowHaveMessage# You now have: 
+points.# points.
+extraTurnMessage# You get an extra turn
+enterPlayerMessage#Enter Player 
+nameMessage#'s Name
