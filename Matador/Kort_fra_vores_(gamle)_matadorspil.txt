@@ -1,0 +1,175 @@
+modtag penge																		9
+mist penge																			6
+ryk frem til x, modtag penge hvis du passere start									4
+ryk 3 felter tilbage																2
+ryk frem til nærmeste dampselskab, dobbelt betaling / k�b feltet					2
+modtag penge fra alle andre spillere												1
+matador legatet: modtag penge hvis samlede formue ikke overskrider threshhold		1
+ryk til rådhuspladsen																1
+kul og kokspriser: betal x pr hus og y pr hotel										2
+gå i fængsel																		2
+benådning fra fængsel																2
+-----------------------------------------------------------------------------------------
+specifikke kort:
+-----------------------------------------------------------------------------------------
+Tag ing på rådhuspladsen
+type 		: 	move
+værdi		:	Rådhuspladsen
+
+
+Matador Legatet
+type 		: 	mdtag_penge
+værdi		:	2000 (stort)
+condition	:	assets < 750
+
+
+Afleveret abbonementskort
+type 		: 	mdtag_penge
+værdi		:	1
+
+
+Gamle klude
+type 		: 	mdtag_penge
+værdi		:	20
+
+
+Auktion af t�j
+type 		: 	mdtag_penge
+værdi		:	108
+
+
+Egenavl fra k�kenhave
+type 		: 	mdtag_penge
+værdi		:	200
+
+
+tag med �resundsbåden
+type 		: 	ryk_frem_start
+værdi		:	Øresundsbåden
+
+
+Præmieobligationer
+type 		: 	mdtag_penge
+værdi		:	100
+
+
+Ryk frem til Frederiksberg allé
+type 		: 	ryk_frem_start
+værdi		:	Frederiksberg allé
+
+
+Kul- og kokspriser
+type		:	betal_pr_hus
+værdi_hus	:	25
+værdi_hotel	:	125
+
+
+benådning
+type		:	get_out_of_jail
+værdi		:	1
+
+
+benådning
+type		:	get_out_of_jail
+værdi		:	1
+
+
+Ejendomsskat
+type		:	betal_pr_hus
+værdi_hus	:	50
+værdi_hotel	:	125
+
+
+eftergivet skat
+type 		: 	mdtag_penge
+værdi		:	150
+
+
+aktie udbytte
+type 		: 	mdtag_penge
+værdi		:	50
+
+
+Manufakturvare
+type 		: 	mdtag_penge
+værdi		:	50
+
+
+Gageforh�jelse
+type 		: 	mdtag_penge
+værdi		:	25
+
+
+Told
+type 		: 	mist_penge
+værdi		:	20
+
+
+parkeringsb�de
+type 		: 	mist_penge
+værdi		:	20
+
+
+nye dæk
+type 		: 	mist_penge
+værdi		:	100
+
+
+Vognvask og sm�ring
+type 		: 	mist_penge
+værdi		:	10
+
+
+k�b Øl
+type 		: 	mist_penge
+værdi		:	75
+
+
+Ryk frem til Gr�nningen
+type 		: 	ryk_frem_start
+værdi		:	Gr�nningen
+
+
+Gå i fængsel
+type 		: 	go_to_jail
+værdi		:	Fængsel
+
+
+Gå i fængsel
+type 		: 	go_to_jail
+værdi		:	Fængsel
+
+
+Nærmeste dampselskab
+type 		: 	move_to
+værdi		:	next_shipping
+
+
+Nærmeste dampselskab
+type 		: 	move_to
+værdi		:	next_shipping
+
+
+gå til start
+type 		: 	move
+værdi		:	start
+
+
+fuld stop
+type 		: 	mist_penge
+værdi		:	100
+
+
+samskudsgilde
+type 		: 	modtag_fra_alle
+værdi		:	25 pr player
+
+
+ryk tre felter tilbage
+type 		: 	move
+værdi		:	-3 felter
+
+
+ryk tre felter tilbage
+type 		: 	move
+værdi		:	-3 felter
